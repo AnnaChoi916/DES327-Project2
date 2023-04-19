@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+
+body {
+  background-image: url(images/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#sketch-holder{
+
+}
+
+canvas {
+  border-radius: 20px;
+  margin: 10px;
+  display: block;
+}
+
+#left-button-container,
+#right-button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#left-button-container {
+  /* overflow: auto; */
+}
+
+#right-button-container {
+  /* margin-right: -650px;
+  margin-top: 50px; */
+}
+
+.button-styling {
+  
+  margin-bottom: 10px;
+  outline: none;
+  /* height: 45px; */
+  border: none;
+  border-radius: 5px;
+  padding: 8px 20px;
+  font-size: 25px;
+  font-family: 'Gamja Flower', cursive;
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.button-styling:hover {
+  transform: scale(1.05);
+}
+
+.button-styling:active {
+  transform: scale(1);
+}
+
+#change-bg-color {
+  background-color: #ff6b75;
+}
+
+#change-cap-color {
+  background-color: #86c3ff;
+}
+
+#change-eye-color {
+  background-color: #df9eff;
+}
+
+#change-skin-color {
+  background-color: #ffba18;
+}
+
+#change-topclothes-color {
+  background-color: #9c0;
+}
+
+#change-pants-color {
+  background-color: #48d1cc;
+}
+
+#change-shoes-color {
+  background-color: #ffa6df;
+}
+
+#change-hat-style {
+  background-color: #6495ed;
+}
+
+.testing{
+  display:flex;
+}
